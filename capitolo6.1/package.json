@@ -1,0 +1,43 @@
+{
+  "name": "progetto1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "license": "ISC",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "sserve": "NODE_ENV=development nodemon server",
+    "sbuild": "NODE_ENV=production node server"
+  },
+  "authors": [
+    "istro tergeste "
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tergeste/progetto1.git"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "data/*",
+      "dist/*",
+      "css/*",
+      "src/*",
+      "public/*"
+    ]
+  },
+  "config": {
+    "login": true,
+    "isguest": true,
+    "register": true,
+    "datafolder": "data/_files",
+    "pathdiz": "~/sites/auth",
+    "dbauth": "~/sites/auth/auth.db",
+    "static": {},
+    "port": 3000,
+    "sito": "http://localhost:3000"
+  },
+  "dependencies": {
+    "liburno_bklib": "^2.0.10"
+  }
+}
