@@ -2,7 +2,7 @@
 
 # Corso WEB
 
-![under construction](https://images.croswil.com/public/@my/corso/jpeg/00030.jpeg)
+![under construction](https://images.croswil.com/public/@my/corso/jpeg/00050.jpeg)
 
 
 Questo è il codice relativo la corso web che sto costruendo, al momento sul sito `https://note.liburno.com`, ma che una volta finito renderò pubblico in un sito specifico.
