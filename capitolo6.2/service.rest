@@ -1,0 +1,20 @@
+post http://localhost:3000/birds/
+content-type: application/json
+
+
+###
+get http://localhost:3000/birds/
+content-type: application/json
+
+
+###
+post http://localhost:3000/birds/about
+content-type: application/json
+
+###
+post http://localhost:3000/birds/counter
+content-type: application/json
+
+{
+    "id":"3"
+}
